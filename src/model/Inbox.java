@@ -6,7 +6,7 @@ import java.util.List;
  //dit is postvak
 public class Inbox {
     private String naam;
-    private List<Email> emails; /
+    private List<Email> emails; 
     //een lijst van email objecten die in deze inbox worden verzameld
 
     // constructor voor object inbox aanmaken

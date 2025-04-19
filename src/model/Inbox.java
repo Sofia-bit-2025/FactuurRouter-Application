@@ -3,7 +3,7 @@ package model;
 import java.util.ArrayList;
 import java.util.List;
 
- . dit is postvak
+ //dit is postvak
 public class Inbox {
     private String naam;
     private List<Email> emails; /

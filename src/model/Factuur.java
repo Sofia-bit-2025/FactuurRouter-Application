@@ -6,16 +6,16 @@ import java.time.LocalDate; //de klasse local date ophalen
 public abstract class Factuur implements VerwerkbareFactuur{
     private String factuurnummer;
     private LocalDate datum;//
-    private Leverancier leverancier;/
-    private Bestand bestand;/
+    private Leverancier leverancier;
+    private Bestand bestand;
 
    //constructor  object factuur
     public Factuur(String factuurnummer, LocalDate datum, Leverancier leverancier, Bestand bestand) {
         // hier stop ik de waarden in juiste variabelen
         this.factuurnummer = factuurnummer;
         this.datum = datum;
-        this.leverancier = leverancier; //
-        this.bestand = bestand;//
+        this.leverancier = leverancier; 
+        this.bestand = bestand;
     }
 
     //getter om factuurnummer op te vragen
